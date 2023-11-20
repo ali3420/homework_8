@@ -127,7 +127,6 @@ a {
   position: relative;
   margin-inline: auto;
   padding-bottom: 100px;
-  padding-left: 405px;
 }
 .video__source {
   max-width: 100%;
@@ -210,4 +209,5 @@ a {
 
 .video {
   background-color: var(--color-gray-light);
+  padding-left: 405px;
 }
