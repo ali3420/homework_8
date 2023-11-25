@@ -193,7 +193,6 @@ a {
 .footer {
   background: var(--color-primary);
   padding: 40px 0;
-  padding-left: 406px;
 }
 
 .footer__name {
