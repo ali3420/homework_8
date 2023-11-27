@@ -206,3 +206,19 @@ a {
   font-size: 0.8125rem;
   line-height: var(--line-height-lg);
 }
+
+@media (max-width: 655px) {
+  .navbar__list {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .content {
+    text-align: center;
+    align-items: center;
+  }
+
+  .video__iframe {
+    height: 300px;
+  }
+}
