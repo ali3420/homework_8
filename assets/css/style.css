@@ -208,6 +208,10 @@ a {
 }
 
 @media (max-width: 655px) {
+  .navbar {
+    margin-bottom: 50px;
+  }
+
   .navbar__list {
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -217,6 +221,14 @@ a {
   .content {
     text-align: center;
     align-items: center;
+  }
+
+  .content__title {
+    line-height: var(--line-height-sm);
+  }
+
+  .experience__container {
+    justify-content: center;
   }
 
   .video__iframe {
